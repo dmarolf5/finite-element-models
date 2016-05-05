@@ -29,7 +29,7 @@ for step in range(time_limit):
 			new_city[x][y] = city[x][y] # the default is that cells don't change
 			elements = 0
 			for neighbor in get_neighbors((x, y)):
-				if new_city[neighbor[0]][neighbor[1]] == 'C':
+				if new_city[neighbor[0]][neighbor[1]] = 'C:
 					elements += 1
 			if new_city[x][y] == ' ':
 				if elements == 1 or elements == 2:
